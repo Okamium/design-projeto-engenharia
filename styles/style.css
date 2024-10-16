@@ -1,0 +1,35 @@
+body {
+    background-color: #f4f4f9;
+}
+
+#teste {
+    font-size: xx-large;
+    margin-left: 8.5rem;
+}
+
+#peca {
+    margin-left: 6.5rem;
+}
+
+#nome {
+    margin-right: 10.5rem;
+}
+
+h1 {
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+}
+
+.card-title {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+footer {
+    margin-top: 50px;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HardSpot</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./styles/style.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <!-- Botão Hamburguer sempre visível -->
+            <button class="navbar-toggler " id="nome" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Nome da Empresa centralizado -->
+            <a class="navbar-brand mx-auto"  href="#">HardwareSpot</a>
+
+            <!-- Menu Hamburguer -->
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav ms-auto mb-2 lista mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Promoções</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Novidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Descontos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Lançamentos</a>
+                    </li>
+                </ul>
+            </div>
+
+            
+        </div>
+    </nav>
+
+
+    <div class="container my-5">
+        <h1 class="text-center mb-5">Escolha um jogo e te ajudaremos a achar uma máquina perfeita!</h1>
+
+        <h2 class="text-center mb-5">Em Destaque</h2>
+        <div class="row">
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img src="./assets/gta.png" class="card-img-top" alt="GTA V">
+                    <div class="card-body">
+                        <h5 class="card-title">GTA V</h5>
+                        <p class="card-text">Veja as peças recomendadas para rodar GTA V com ótimo desempenho.</p>
+                        <a href="gta.html" class="btn btn-primary" id="peca">Ver peças</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img src="./assets/cyberpunk.png" class="card-img-top" alt="Cyberpunk 2077">
+                    <div class="card-body">
+                        <h5 class="card-title">Cyberpunk 2077</h5>
+                        <p class="card-text">Descubra o hardware necessário para rodar Cyberpunk 2077.</p>
+                        <a href="cyberpunk.html" class="btn btn-primary" id="peca">Ver peças</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img src="./assets/the-witcher.png" class="card-img-top" alt="The Witcher 3">
+                    <div class="card-body">
+                        <h5 class="card-title">The Witcher 3</h5>
+                        <p class="card-text">Veja os componentes recomendados para jogar The Witcher 3.</p>
+                        <a href="witcher.html" class="btn btn-primary" id="peca">Ver peças</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer class="text-center bg-dark text-white py-4">
+        <p>© 2024 Hardware Gamer | Todos os direitos reservados</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
